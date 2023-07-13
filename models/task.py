@@ -38,3 +38,11 @@ class Task(BaseModel):
     description: str
     list_id: str
     created_at: datetime
+
+class TaskWithList(BaseModel):
+    id: str
+    title: str
+    description: str
+    list_id: str
+    status: str
+    list_title: str

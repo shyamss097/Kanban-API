@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://admin:pass1234@mycluster.umbxht1.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://admin:pass1234@kanban-cluster.swfafgm.mongodb.net/&retryWrites=true&w=majority", connectTimeoutMS = 5000)
 
 db = client.kanban_db
 
